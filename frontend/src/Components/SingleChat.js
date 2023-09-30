@@ -49,6 +49,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
   // const [msglen, setMsglen] = useState(0);
   // const [notification, setNotification] = useState([]);
   const toast = useToast();
+  // const ENDPOINT = "http://localhost:5000/";
   const ENDPOINT = "https://chat-app-mern-1.onrender.com/";
   var socket, selectedChatCompare;
   const [typing, setTyping] = useState(false);
