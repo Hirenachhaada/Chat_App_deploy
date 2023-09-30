@@ -7,6 +7,7 @@ import { connect } from "mongoose";
 const SocketContext = createContext();
 
 const socket = io("https://chat-app-mern-1.onrender.com");
+// const socket = io("http://localhost:5000");
 
 const ContextProvider = ({ children }) => {
   const [stream, setStream] = useState(null);
